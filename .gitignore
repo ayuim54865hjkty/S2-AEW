@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+
+# Large experiment artifacts
+DataSet/
+datasets/
+data/
+model_save/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+results/
+outputs/
+logs/
+*.log
+
+# Build and local environment files
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
