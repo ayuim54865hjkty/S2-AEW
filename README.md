@@ -110,19 +110,6 @@ The report contains spatial, spectral, and joint branches:
 
 The paper experiments use trained HSI classifiers, selected key samples, and dataset-specific settings. This public release keeps the executable method core and lightweight smoke tests in the repository. Full datasets, checkpoints, and generated watermark samples should be downloaded or released separately because they are large binary artifacts.
 
-## Citation
-
-If you use this code, please cite the associated paper:
-
-```bibtex
-@article{s2aew,
-  title   = {Spatial-Spectral Adversarial Explanation Watermarking for Hyperspectral Image Classification Models},
-  author  = {Anonymous},
-  journal = {Knowledge-Based Systems},
-  year    = {2026}
-}
-```
-
 ## License
 
 This repository is released for academic research use. Please check the license file before redistribution.
