@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "s2aew"
+version = "0.1.0"
+description = "Spatial-Spectral Adversarial Explanation Watermarking for HSI classifiers"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "scipy",
+  "torch",
+  "PyYAML",
+]
+
+[project.scripts]
+s2aew-demo = "s2aew.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["s2aew*"]

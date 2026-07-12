@@ -1,0 +1,18 @@
+dataset:
+  name: PaviaU
+  image_size: 11
+  num_channels: 103
+  num_classes: 9
+
+model:
+  architecture: HamidaEtAl
+  checkpoint: null
+
+watermark:
+  key: replace-with-private-key
+  eps: 0.3
+  lr: 0.003
+  steps: 200
+  lam: 0.001
+  spectral_weight: 2.2
+  keep_weight: 0.1

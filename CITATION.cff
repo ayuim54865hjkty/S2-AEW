@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "S2-AEW: Spatial-Spectral Adversarial Explanation Watermarking"
+message: "If you use this code, please cite the associated paper."
+type: software
+authors:
+  - family-names: "Luo"
+    given-names: "Chenglei"
+  - family-names: "Liu"
+    given-names: "Yaqi"
+repository-code: "https://github.com/ayuim54865hjkty/S2-AEW"
+license: MIT
+version: "0.1.0"
+date-released: "2026-07-12"
